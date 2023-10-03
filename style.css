@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Varela+Round&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Varela Round';
+  background: rgb(30, 11, 65);
+	color: white;
+	background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1{
+	font-size: 3rem;
+  margin: 30px 0;
+  text-align: center;
+  text-shadow: 2px 2px #4e53ff;
+}
+
+.countdown-container{
+	display: flex;
+}
+
+	.countdown-container div{
+		text-align: center;
+	}
+
+		.countdown-container p{
+			font-size: 2rem;
+			text-shadow: 2px 2px #4e53ff;
+			margin: 0 5vw;
+		}
+
+		.countdown-container span{
+			font-size: 1rem;
+			text-shadow: 2px 2px #4e53ff;
+		}
+
+.nocolor-img{
+  filter: brightness(0);
+}
+/* Estilos específicos de las estaciones */
+body.autumn {
+    background-image: url(https://wp-s.ru/wallpapers/10/14/482872059819933/el-camino-de-oto-o-est-salpicado-de-hermosas-hojas.jpg);
+}
+body.winter {
+    background-image: url(https://e8s3v3w7.rocketcdn.me/wp-content/uploads/2019/04/schweden-rauer-winter-mit-unmengen-von-schnee-in-lappland-kati-molin-shutterstock.jpg);
+}
+body.spring {
+    background-image: url(https://www.papelpintado.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/0/w02588-small.jpg);
+}
+body.summer {
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/30/09/39/seascape-4983636_1280.jpg);
+}
+/* Estilos específicos del cumpleaños */
+body.birthday {
+    background-image: url(https://i.blogs.es/2565fb/tarta_cumpleanos/1366_2000.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Ocultamos el elemento para feLicitar */
+#happyBirthday{
+	display: none;
+	background-color: rgba(0, 0, 0, 0.613);
+}
+
