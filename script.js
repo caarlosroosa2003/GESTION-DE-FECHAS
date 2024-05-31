@@ -6,7 +6,7 @@ const upcomingImg = document.getElementById('upcoming-img');
 
 
 let currentDate = new Date(); // Me quedo con la fecha actual
-let birthday = new Date(2024, 3, 19, 1, 1)
+let birthday = new Date(2025, 3, 19, 1, 1)
 let goalDate = new Date(birthday); // Año, mes (enero==0), día, hora, minutos¡
 let days, hours, mins, seconds, totalSeconds;
 
